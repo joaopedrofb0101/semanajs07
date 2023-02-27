@@ -1,0 +1,20 @@
+index.js -> chama todas as camadas
+
+services -> responsável pelas lógicas de negócio
+  ->faz toda a chamada externa
+    api, arquivos, bancos de dados
+
+workers -> toda lógica pesada que envolva CPU que funciona em segundo plano
+ -> tudo que pode travar o pc(FOR, LOOP, AI, Machine Learning, processamento de webcam)
+ -> chama as regras de negócio de services
+    
+views ->faz toda a interação com o DOM(html da página em si)
+  -> não pode ter regra de negócio, recebe de services
+
+controllers -> intermediária entre services/e ou/workers e views
+  -> faz a conexão segura entre service e views
+
+factories -> importa as dependências
+  -> cria o objeto final para fazermos chamadas
+  ->retorna a função que inicialzia o fluxo daquele componente(init)
+
