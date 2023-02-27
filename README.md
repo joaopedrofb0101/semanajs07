@@ -1,5 +1,4 @@
 ## Preview
-![5eeea355389655 59822ff824b72](https://user-images.githubusercontent.com/73858187/221658855-bc9364de-a5b1-4194-ba28-8b06dfb78ef3.gif)
 
 
 ## Pre-reqs
