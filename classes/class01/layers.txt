@@ -18,3 +18,5 @@ factories -> importa as dependências
   -> cria o objeto final para fazermos chamadas
   ->retorna a função que inicialzia o fluxo daquele componente(init)
 
+git 
+ ->learning when needed!
